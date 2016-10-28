@@ -6,17 +6,33 @@
   background-color: #e45858;
 }
 
+#P2nd #contents2 {
+  font-size: 25px;
+}
+
 #P3rd {
   background-color: #231b65;
   color: white;
+}
+
+#P3rd #contents3 {
+  font-size: 25px;
 }
 
 #P4th {
   background-color: #f2b355;
 }
 
+#P4th #contents4 {
+  font-size: 25px;
+}
+
 #P5th {
   background-color: #c2f0a5;
+}
+
+#P5th #contents5 {
+  font-size: 25px;
 }
 
 .CenterText {
