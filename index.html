@@ -5,21 +5,36 @@
 
 	<meta charset="UTF-8">
 	<title>hi</title>
-	<link rel="shortcut icon" href="../images/logo.ico">
+	<link rel="shortcut icon" href="./images/logo.ico">
 
-	<link rel="stylesheet" href="../css/jquery.fullPage.css">
-	<link rel="stylesheet" href="../css/remodal.css">
-	<link rel="stylesheet" href="../css/remodal-default-theme.css">
+	<link rel="stylesheet" href="./css/jquery.fullPage.css">
+	<link rel="stylesheet" href="./css/remodal.css">
+	<link rel="stylesheet" href="./css/remodal-default-theme.css">
 
 	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="../js/jquery.easings.min.js"></script>
-	<script src="../js/jquery.fullPage.min.js"></script>
-	<script src="../js/remodal.min.js"></script>
+	<script src="./js/jquery.easings.min.js"></script>
+	<script src="./js/jquery.fullPage.min.js"></script>
+	<script src="./js/remodal.min.js"></script>
+	<script>
+		(function($) {
+			$(function() {
+				$('#fullpage').fullpage({
+					anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
+					controlArrows: false
+				});
+			});
+		})(jQuery);
+	</script>
 </head>
 
 <body>
-a
+	<main id="fullpage">
+		<div class="section">1</div>
+		<div class="section">2</div>
+		<div class="section">3</div>
+		<div class="section">4</div>
+	</main>
 </body>
 
 </html>
