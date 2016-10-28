@@ -21,7 +21,9 @@
 		(function($) {
 			$(function() {
 				$('#fullpage').fullpage({
-					anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
+					anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage'],
+					navigation: true,
+					navigationPosition: 'right',
 					controlArrows: false
 				});
 			});
@@ -32,16 +34,19 @@
 <body>
 	<main id="fullpage">
 		<div class="section" id="P1st">
-			<h1 id="CenterText">1stPage</h1>
+			<h1 class="CenterText">me</h1>
 		</div>
 		<div class="section" id="P2nd">
-			<h1 id="CenterText">2ndPage</h1>
+			<h1 class="CenterText">希望研究領域</h1>
 		</div>
 		<div class="section" id="P3rd">
-			<h1 id="CenterText">3rdPage</h1>
+			<h1 class="CenterText">希望研究テーマおよび内容</h1>
 		</div>
 		<div class="section" id="P4th">
-			<h1 id="CenterText">4thPage</h1>
+			<h1 class="CenterText">準備状況</h1>
+		</div>
+		<div class="section" id="P5th">
+			<h1 class="CenterText">進路希望</h1>
 		</div>
 	</main>
 </body>
