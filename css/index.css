@@ -1,40 +1,41 @@
 #P1st {
-  background-color: #b565db;
+  background-color: #f1d8f0;
+}
+
+#P1st #contents1 {
+  font-size: 25px;
 }
 
 #P2nd {
-  background-color: #e45858;
+  background-color: #9d568a;
 }
 
 #P2nd #contents2 {
   font-size: 25px;
 }
 
+#P2nd #contents3 {
+  font-size: 25px;
+  line-height: 35px;
+}
+
 #P3rd {
-  background-color: #231b65;
-  color: white;
+  background-color: #ed5fa8;
+  color: #1bfb9d;
 }
 
-#P3rd #contents3 {
+#P3rd #contents4 {
   font-size: 25px;
 }
 
-#P4th {
-  background-color: #f2b355;
-}
-
-#P4th #contents4 {
-  font-size: 25px;
-}
-
-#P5th {
-  background-color: #c2f0a5;
-}
-
-#P5th #contents5 {
+#P3rd #contents5 {
   font-size: 25px;
 }
 
 .CenterText {
   text-align: center;
+}
+
+.ContentsSub {
+  font-size: 20px;
 }

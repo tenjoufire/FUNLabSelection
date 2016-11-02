@@ -21,7 +21,7 @@
 		(function($) {
 			$(function() {
 				$('#fullpage').fullpage({
-					anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage'],
+					anchors: ['firstPage', 'secondPage', '3rdPage'],
 					navigation: true,
 					navigationPosition: 'right',
 					controlArrows: false
@@ -34,27 +34,42 @@
 <body>
 	<main id="fullpage">
 		<div class="section" id="P1st">
-			<h1 class="CenterText">me</h1>
+			<h1 class="CenterText">卒業研究学生調査書</h1>
+			<div class="CenterText" id="contents1">
+				知能システムコース b1014202 辻本海成<br><br>
+				所属<br>
+				メタ学習ラボ・未来大における数学学習環境のデザイン
+			</div>
 		</div>
 		<div class="section" id="P2nd">
 			<h1 class="CenterText">希望研究領域</h1>
 			<div class="CenterText" id="contents2">
 				ヒューマンコンピュータインタラクション
 			</div>
-		</div>
-		<div class="section" id="P3rd">
 			<h1 class="CenterText">希望研究テーマおよび内容</h1>
 			<div class="CenterText" id="contents3">
-				車内会話の解析とその応用など
+				車内会話の解析とその応用など （角康之先生）<br>
+				多人数会話のインタラクション分析 (角康之先生)<br>
+				メタ学習ラボに関連する研究 (角康之先生，メタ学習センター)<br>
+				Microsoft Hololensで実現するMR空間技術を利用したインタラクションの提案<br>
+				ICTを活用した学習ツールの開発およびその効果検証 (冨永先生)<br>
+				身の回りの家電機器の制御と統合の研究 (美馬義亮先生)
 			</div>
 		</div>
-		<div class="section" id="P4th">
+		<div class="section" id="P3rd">
 			<h1 class="CenterText">準備状況</h1>
 			<div class="CenterText" id="contents4">
-				C#やってました
+				学部三年前期時点で卒業研究とプロジェクト学習分を除いた必要単位は取得済み(現在118単位) + 履修中(10単位)
 			</div>
-		</div>
-		<div class="section" id="P5th">
+			<h2 class="CenterText">インターンシップ</h2>
+			<div class="CenterText ContentsSub">
+				株式会社ネクストスケープにてMicrosoftAzureを用いたサービスの開発(4週間)<br>
+			</div>
+			<h2 class="CenterText">プログラム</h2>
+			<div class="CenterText ContentsSub">
+				<a href="https://github.com/tenjoufire" target="_blank">Githubのページ</a><br>
+				主にC#, Java, Processing
+			</div>
 			<h1 class="CenterText">進路希望</h1>
 			<div class="CenterText" id="contents5">
 				大学院進学（学内推薦を利用）
